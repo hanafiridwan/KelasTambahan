@@ -5,11 +5,11 @@
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(189, 189, 189);
 }
 
 .container {
-    width: 1100px;
+    width: 1200px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -20,6 +20,9 @@ body {
     padding: 5px;
     margin: 5px auto;
     overflow: hidden;
+    /* align-items: center;
+    justify-content: space-between;
+    display: flex; */
 }
 
 .header img {
@@ -54,4 +57,76 @@ body {
     border: none;
     height: 20px;
     margin-right: 50px;
+}
+
+.daftar-content {
+    width: 670px;
+    float: left;
+}
+
+.daftar-content .content {
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.daftar-content .content img {
+    float: left;
+    margin-left: 10px;
+    width: 200px;
+    height: 160px;
+}
+
+.daftar-content .content b {
+    color: black;
+    background-color: cadetblue;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.daftar-content .content p {
+    margin: 10px 0;
+    margin-right: 50px;
+}
+
+.daftar-content .content a{
+    text-align: right;
+    color: grey;
+    display: block;
+}
+
+.sidebar {
+    width: 470px;
+    float: right;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.sidebar p {
+    line-height: 20px;
+    color: grey;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    clear: both; /* supaya footer jadi default atau tidak ikut float sidebar */
+    text-align: center;
+    padding: 5px;
+    margin: 20px 0;
+    background-color: aliceblue;
+    color: black;
 }
